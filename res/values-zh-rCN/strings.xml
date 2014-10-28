@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">房贷计算器</string>
+    <string name="ze1">贷款金额</string>
+    <string name="nx1">贷款年限</string>
+    <string name="lv1">年利率</string>
+    <string name="btn_sub1">提交</string>
+    <string name="btn_cancel">重置</string>
+    <string name="action_settings">设置</string>
+    <string name="am10">贷款总额</string>
+    <string name="am11">还款月数</string>
+    <string name="am12">月还款</string>
+    <string name="am13">总支付利息</string>
+    <string name="am14">本息总和</string>
+    <string name="zex1">公积金贷款总额</string>
+    <string name="zex2">商业贷款总额</string>
+    <string name="lvx1">公积金年利率</string>
+    <string name="lvx2">商业年利率</string>
+	<string name="about_app">关于我们</string>
+	<string name="about_desc">"
+	    房贷计算器可提供各种房屋按揭贷款计算功能，
+	    包括商业住房贷款、公积金贷款、组合贷款等
+	    多种贷款方式的计算，支持按贷款总额计算。
+	    保证及时更新最新的国家利率数据。同时给
+	    出本额本息、等额本金两种计算结果。
+		"</string>
+</resources>

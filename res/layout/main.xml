@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 这里是根节点布局 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="3dip">
+
+    <TableLayout
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <!-- 第一个Tab 对应的布局 -->
+
+            <LinearLayout
+                android:id="@+id/widget_layout_sy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="Orientation">
+
+                <TableLayout
+                    android:id="@+id/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:stretchColumns="*" >
+
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/ze1"
+                            style="@style/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ze1" >
+                        </TextView>
+
+                        <EditText  android:background="@android:drawable/edit_text"
+                            android:id="@+id/zev1"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:numeric="decimal"
+                            android:layout_width="200px"
+                             >
+                        </EditText>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/nx1"
+                            style="@style/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/nx1" >
+                        </TextView>
+
+                        <Spinner
+                            android:id="@+id/nxv1"
+                            android:layout_width="200px"
+                            android:layout_height="wrap_content" 
+                            >
+                        </Spinner>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow3"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/lv1"
+                            style="@style/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lv1" >
+                        </TextView>
+
+                        <Spinner
+                            android:id="@+id/lvv1"
+                            android:layout_width="200px"
+                            android:layout_height="wrap_content" >
+                        </Spinner>
+
+                        <EditText android:background="@android:drawable/edit_text" 
+                            android:id="@+id/lvvv1"
+                            android:layout_height="wrap_content"
+                            android:numeric="decimal"
+                            android:text="6.55" 
+                            android:layout_width="wrap_content">
+                        </EditText>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right" >
+
+                            <Button
+                                android:id="@+id/sub1"
+                                style="@style/title"
+                                android:background="@drawable/shape"
+                                android:layout_width="wrap_content"
+                                android:layout_height="60px"
+                                android:text="@string/btn_sub1" >
+                            </Button>
+
+                            <Button
+                                android:id="@+id/cancel1"
+                                style="@style/title"
+                                android:background="@drawable/shape"
+                                android:layout_width="wrap_content"
+                                android:layout_height="60px"
+                                android:layout_marginLeft="10dip"
+                                android:text="@string/btn_cancel" >
+                            </Button>
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            <!-- 第二个Tab 对应的布局 -->
+
+            <LinearLayout
+                android:id="@+id/widget_layout_gjj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TableLayout
+                    android:id="@+id/tj1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:stretchColumns="0,1,2"
+                    android:layout_marginLeft="2px">
+
+                    <TableRow
+                        android:id="@+id/tableRowj1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/zej1"
+                            style="@style/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ze1" >
+                        </TextView>
+
+                        <EditText android:background="@android:drawable/edit_text" 
+                            android:id="@+id/zevj1"
+                              android:layout_width="200px"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:numeric="decimal" >
+                        </EditText>
+                        
+                           <TextView
+                            android:id="@+id/zej11"
+                            style="@style/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="" >
+                        </TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRowj2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/nxj1"
+                            style="@style/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/nx1" >
+                        </TextView>
+
+                        <Spinner
+                            android:id="@+id/nxvj1"
+                            android:layout_width="200px"
+                            android:layout_height="wrap_content" >
+                        </Spinner>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRowj3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/lvj1"
+                            style="@style/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lv1" >
+                        </TextView>
+
+                        <EditText android:background="@android:drawable/edit_text" 
+                            android:id="@+id/lvvvj1"
+                            android:layout_width="200px"
+                            android:layout_height="wrap_content"
+                            android:numeric="decimal"
+                            android:text="4.50" >
+                        </EditText>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRowj4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right" >
+
+                            <Button
+                                android:id="@+id/subj1"
+                                style="@style/title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/btn_sub1"
+                                android:background="@drawable/shape" >
+                            </Button>
+
+                            <Button
+                                android:id="@+id/cancelj1"
+                                style="@style/title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:text="@string/btn_cancel" 
+                                android:background="@drawable/shape">
+                            </Button>
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+                
+            </LinearLayout>
+            <!-- 第三个Tab 对应的布局 -->
+
+            <LinearLayout
+                android:id="@+id/widget_layout_mix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+               <TableLayout
+                    android:id="@+id/tx1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:stretchColumns="*" >
+                    
+                     <TableRow
+                        android:id="@+id/tableRowx7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/nxx1"
+                            style="@style/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/nx1" >
+                        </TextView>
+
+                        <Spinner
+                            android:id="@+id/nxvx1"
+                            android:layout_width="200px"
+                            android:layout_height="wrap_content" >
+                        </Spinner>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRowx1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/zex1"
+                            style="@style/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/zex1" >
+                        </TextView>
+
+                        <EditText android:background="@android:drawable/edit_text" 
+                            android:id="@+id/zevx1"
+                            android:layout_height="wrap_content"
+                            android:layout_width="200px"
+                            android:ems="10"
+                            android:numeric="decimal" >
+                        </EditText>
+                    </TableRow>
+                    
+                     <TableRow
+                        android:id="@+id/tableRowx3"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/lvx1"
+                            style="@style/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lvx1" >
+                        </TextView>
+
+                        <EditText android:background="@android:drawable/edit_text" 
+                            android:id="@+id/lvvvx1"
+                            android:layout_width="200px"
+                            android:layout_height="wrap_content"
+                            android:numeric="decimal"
+                            android:text="4.50" >
+                        </EditText>
+                    </TableRow>
+
+                     <TableRow
+                        android:id="@+id/tableRowx5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/zex2"
+                            style="@style/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/zex2" >
+                        </TextView>
+
+                        <EditText android:background="@android:drawable/edit_text" 
+                            android:id="@+id/zevx2"
+                            android:layout_height="wrap_content"
+                            android:layout_width="200px"
+                            android:ems="10"
+                            android:numeric="decimal" >
+                        </EditText>
+                    </TableRow>
+
+                   
+
+                    <TableRow
+                        android:id="@+id/tableRowx6"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/lvx2"
+                            style="@style/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/lvx2" >
+                        </TextView>
+
+                        <Spinner
+                            android:id="@+id/lvvx2"
+                            android:layout_width="200px"
+                            android:layout_height="wrap_content" >
+                        </Spinner>
+
+                        <EditText android:background="@android:drawable/edit_text" 
+                            android:id="@+id/lvvvx2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:numeric="decimal"
+                            android:text="6.55" >
+                        </EditText>
+                    </TableRow>
+                     
+                    
+                     
+
+                    <TableRow
+                        android:id="@+id/tableRowx4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right" >
+
+                            <Button
+                                android:id="@+id/subx1"
+                                style="@style/title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/btn_sub1"
+                                android:background="@drawable/shape" >
+                            </Button>
+
+                            <Button
+                                android:id="@+id/cancelx1"
+                                style="@style/title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:text="@string/btn_cancel"
+                                android:background="@drawable/shape" >
+                            </Button>
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+                
+                
+                
+                
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TableLayout
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="输出结果："
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="#A0A0A0" >
+                </View>
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/darker_gray" >
+
+                    <TextView
+                        style="@style/textview_allgrade_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="" />
+
+                    <TextView
+                        style="@style/textview_allgrade_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="等额本息" />
+
+                    <TextView
+                        style="@style/textview_allgrade_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="等额本金" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/darker_gray" >
+
+                    <TextView
+                        style="@style/textview_allgrade_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="@string/am10" />
+
+                    <TextView
+                        android:id="@+id/am10"
+                        style="@style/textview_allgrade_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="0" />
+
+                    <TextView
+                        android:id="@+id/am20"
+                        style="@style/textview_allgrade_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="0" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/darker_gray" >
+
+                    <TextView
+                        style="@style/textview_allgrade_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="@string/am11" />
+
+                    <TextView
+                        android:id="@+id/am11"
+                        style="@style/textview_allgrade_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="0" />
+
+                    <TextView
+                        android:id="@+id/am21"
+                        style="@style/textview_allgrade_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="0" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/darker_gray" >
+
+                    <TextView
+                        style="@style/textview_allgrade_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="@string/am12" />
+
+                    <TextView
+                        android:id="@+id/am12"
+                        style="@style/textview_allgrade_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="0"
+                        android:textColor="@color/red" />
+
+                    <TextView
+                        android:id="@+id/am22"
+                        style="@style/textview_allgrade_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="0"
+                        android:textColor="@color/red" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/darker_gray" >
+
+                    <TextView
+                        style="@style/textview_allgrade_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="@string/am13" />
+
+                    <TextView
+                        android:id="@+id/am13"
+                        style="@style/textview_allgrade_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="0"
+                        android:textColor="@color/red" />
+
+                    <TextView
+                        android:id="@+id/am23"
+                        style="@style/textview_allgrade_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="0"
+                        android:textColor="@color/red" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/darker_gray" >
+
+                    <TextView
+                        style="@style/textview_allgrade_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="@string/am14" />
+
+                    <TextView
+                        android:id="@+id/am14"
+                        style="@style/textview_allgrade_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="0"
+                        android:textColor="@color/red" />
+
+                    <TextView
+                        android:id="@+id/am24"
+                        style="@style/textview_allgrade_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="0"
+                        android:textColor="@color/red" />
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
+
+</FrameLayout>

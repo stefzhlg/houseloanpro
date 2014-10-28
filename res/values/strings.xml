@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">House Loan</string>
+    <string name="ze1">total loan</string>
+    <string name="nx1">terms</string>
+    <string name="lv1">rate</string>
+    <string name="btn_sub1">submit</string>
+    <string name="btn_cancel">cancel</string>
+    <string name="action_settings">setting</string>
+    <string name="am10">total loan</string>
+    <string name="am11">months</string>
+    <string name="am12">pay/m</string>
+    <string name="am13">interest</string>
+    <string name="am14">amount</string>
+    <string name="zex1">total fund</string>
+    <string name="zex2">Commercial</string>
+    <string name="lvx1">fund rate</string>
+    <string name="lvx2">Commercial rate</string>
+    <string name="about_app">about</string>
+	<string name="about_desc">
+	"
+		Mortgage calculators can provide a variety 
+		of housing mortgage loan calculation function,
+		Including commercial housing loans, provident 
+		fund loans, portfolio loans etc.The calculation 
+		of various loans, total loans support according
+		 to calculation.Ensure the timely update of 
+		 national interest in the new data. At the same
+		  ti. At the same time to The amount of principal 
+		  and interest, matching the principal two 
+		  calculation results.
+		"
+</string>
+
+</resources>
